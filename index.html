@@ -1,53 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="./css/style.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>mi primera pagina</title>
     </head>
     <body>
-            <h1>Titulo</h1>
-        <section>
-            
-            <article>
-                
-                <p>Hola</p>
-                <p></p>  
-            </article>
-            <article>
-                <h2>Subtitulo</h2>
-                <p>Hola</p>
-                <h6>Este es el titulo mas chiquito.</h6>
-                <p>
-                    Hola, como estan. <br>
-                    yo estoy bien, espero ustedes tambien.
-                </p> 
-            </article>
-
-        </section>
-    <a href="https://aulasvirtuales.frba.utn.edu.ar/course/view.php?id=26015">Programacion Web BAM 31</a>
-    <hr>
-    <ol>
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento N</li>
-    </ol>
-<br><br>
-    <ul>
-        <li><audio src="./audio.mp3" controls></audio></li>
-        <li>Elemento 2</li>
-        <li>Elemento N</li>
-    </ul>
-    <dl>
-        <dt>Termino a definir:</dt>
-        <dd>Definicion del termino.</dd>
-    </dl>
-    <img src="./imagenes/proteger-a-los-animales.jpg" alt="Texto alternativo acerca de la imagen">
-    <audio src="./audio.mp3" controls preload="auto" autoplay></audio>
-    <video src="./video.mp4" controls ></video>
-    <img src="./imagenes/giphy.gif" alt="feliz">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/iwaUan_AA2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9XyiBI53LZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1>Titulo</h1>
+            <section> 
+                <article>
+                    <h1>segundo Titulo</h1>
+                    <p>Hola</p>  
+                </article>
+                <article>
+                    <h2>Subtitulo</h2>
+                    <p>Hola</p>
+                    <h6>Este es el titulo mas chiquito.</h6>
+                    <p>Hola, como estan.<br>yo estoy bien, espero ustedes tambien.</p> 
+                </article>
+            </section>
+        <a href="https://aulasvirtuales.frba.utn.edu.ar/course/view.php?id=26015">Programacion Web BAM 31</a>
+        <hr>
+        <ol> <!--tablas-->
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento N</li>
+        </ol>
+        <br><br>
+        <ul>
+            <li><audio src="./audio.mp3" controls></audio></li>
+            <li>Elemento 2</li>
+            <li>Elemento N</li>
+        </ul>
+        <dl>
+            <dt>Termino a definir:</dt>
+            <dd>Definicion del termino.</dd>
+        </dl>   
+        <img src="./imagenes/proteger-a-los-animales.jpg" alt="Texto alternativo acerca de la imagen">
+        <audio src="./audio.mp3" controls preload="auto" autoplay></audio>
+        <video src="./video.mp4" controls ></video>
+        <img src="./imagenes/giphy.gif" alt="feliz">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iwaUan_AA2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9XyiBI53LZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <form action="" method=""> <!--formularios-->
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre"/>
+                <br>
+                <label for="textolargo">Texto largo: </label>
+                <textarea name="textolargo" id="textolargo" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Enviar formulario"> <!--botones-->
+                <input type="reset" value="Borrar campos"/>
+                <input type="button" value="Sin acciones"/>
+                <br>
+                <fieldset> <!--recueadro-->
+                <div>Opcion 1</div> <!--botones de radio-->
+                <input type="radio" name="pregunta 1" value="opcion"/>
+                <div>Opcion 2</div>
+                <input type="radio" name="pregunta 1" value="opcion"/>
+                <br>
+                <div>Acepta terminos y condiciones</div> <!--casilla de chequeo-->
+                <input type="checkbox" name="acepta" value="1"/>
+                </fieldset>
+                <select name="talles"><!--menu desplegable-->
+                    <option value="1">Large</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Small</option>
+                </select>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    Nombre: <input type="text" name="nombre">
+                    <br>
+                    Edad: <input type="text" name="edad" size="2">
+                    <br>
+                    Direccion: <input type="text" name="Direccion">
+                </fieldset>
+            </form>
+        <a href="#pie">Ir al pie de pagina</a>
+        ...
+        <footer id="pie"></footer>
     </body>
 </html>
