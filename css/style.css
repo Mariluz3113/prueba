@@ -19,3 +19,6 @@ section article {
 section article p{
     line-height: 4;
 }
+#nombreid { <!-- mueve todo para la derecha-->
+    text-align: right; 
+}
