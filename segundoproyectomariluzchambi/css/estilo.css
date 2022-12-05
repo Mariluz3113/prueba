@@ -1,0 +1,41 @@
+.nombre{
+	color: #FF0040;
+}
+.col-sm-12{
+	background-color: #00BFFF;
+}
+a{ 
+	width: 200px;
+	height: 100px;
+	margin-right: 20px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.card{
+	border-radius: 25px;
+	margin: 10px 0px;
+}
+.card-bogy{
+	margin-left: 20px;
+}
+.conteiner3{
+	padding-top:10px;
+	padding-left: 50px;
+	padding-right: 10px;
+}
+.img{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 250px;
+	border-radius: 10px;
+}
+.barra{
+	padding: 15px 18px;
+	background-color: #1C1C1C;
+	margin: auto;
+}
+.parrafo{
+	color: #FFFFFF;
+	font-family: 'Arial';
+}
